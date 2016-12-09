@@ -11,7 +11,7 @@ function [outFeat] = SMOTE(inFeat, N, k)
 % Adam Hartwell 2016
 
     if N < 1 && rem(N,1) == 0 
-        error('Please use an oversampling integer multiple >1'); 
+        error('Please use an oversampling integer multiple >=1'); 
     end
     
     numObs = size(inFeat, 1); % Number of observations (input examples)
