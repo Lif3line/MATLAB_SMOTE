@@ -1,4 +1,4 @@
-MIT License (modified) 
+MIT License (modified)
 
 Copyright (c) 2016 Adam Hartwell
 
